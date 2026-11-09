@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# ROS 2 build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# PlatformIO
+firmware/.pio/
+firmware/.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Exported maps
+maps/*.pgm
+maps/*.yaml
