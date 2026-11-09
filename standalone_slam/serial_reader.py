@@ -147,3 +147,4 @@ class SerialLidarReader:
                 time.sleep(1.0)
             except Exception as e:
                 self.status_message = f"Parser error: {e}"
+

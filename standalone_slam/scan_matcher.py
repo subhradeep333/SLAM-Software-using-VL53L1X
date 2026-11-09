@@ -102,3 +102,4 @@ class ScanMatcher:
                         best_pose = (cand_x, cand_y, cand_th)
 
         return best_pose, best_score
+

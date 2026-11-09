@@ -8,3 +8,4 @@ from .serial_reader import SerialLidarReader
 from .simulator import LidarSimulator
 
 __all__ = ['OccupancyGridMap', 'ScanMatcher', 'SerialLidarReader', 'LidarSimulator']
+

@@ -44,3 +44,4 @@ Visualization Manager:
       Class: rviz_default_plugins/TopDownOrtho
       Scale: 50.0
       Target Frame: laser_frame
+

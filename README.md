@@ -1,6 +1,6 @@
-# DIY 2D LiDAR SLAM with VL53L0X & ESP32
+# 2D LiDAR SLAM with VL53L1X / VL53L0X & ESP32
 
-A complete, production-ready Simultaneous Localization and Mapping (SLAM) system using an **ESP32**, an **SG90 micro servo**, and a **VL53L0X Time-of-Flight (ToF)** distance sensor.
+A complete, production-ready Simultaneous Localization and Mapping (SLAM) system using an **ESP32**, an **SG90/MG90S micro servo**, and an ST **VL53L1X (up to 4m)** or **VL53L0X (up to 2m)** Time-of-Flight (ToF) distance sensor.
 
 Supports both **ROS 2 (`slam_toolbox` + RViz2)** and a **Native Standalone Python SLAM Studio** with an interactive 2D occupancy grid GUI and built-in virtual room simulator.
 
@@ -180,3 +180,4 @@ SLAM/
 
 3. **Map Export**:
    Exports to standard `.pgm` and `.yaml` formats recognized by ROS 2 Nav2 `nav2_map_server` and ROS 1 `map_server`.
+

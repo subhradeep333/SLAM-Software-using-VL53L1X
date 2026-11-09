@@ -32,3 +32,4 @@
 3. Attach the VL53L0X module to the horn facing outward horizontally, perpendicular to the axis of rotation.
 4. Keep the wiring flexible so the servo can sweep 0° to 180° without tension or wire tangling.
 5. Zero position: Orient the servo horn so 0° corresponds to the right side (-90° relative to robot forward), 90° corresponds to straight forward, and 180° corresponds to the left side (+90° relative to robot forward).
+

@@ -148,3 +148,4 @@ class OccupancyGridMap:
             f.write("free_thresh: 0.25\n")
 
         return pgm_filename, yaml_filename
+

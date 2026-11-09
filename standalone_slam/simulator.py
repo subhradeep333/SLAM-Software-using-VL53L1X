@@ -157,3 +157,4 @@ class LidarSimulator:
             return self.scan_queue.get_nowait()
         except queue.Empty:
             return None
+

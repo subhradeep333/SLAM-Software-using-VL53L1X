@@ -74,3 +74,4 @@ def generate_launch_description():
         slam_toolbox_node,
         rviz_node
     ])
+
